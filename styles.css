@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+}
+
+#container{
+      display: grid;
+     grid-template-columns: 250px 1fr;
+     gap: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#main-doc{
+    margin-top: 2rem;
+}
+
+.main-section{
+    margin-bottom: 2rem;
+}
+
+.main-section header{
+    font-weight:700;
+    font-size: 1.2rem;
+}
+
+code{
+    background-color:ghostwhite;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+}
